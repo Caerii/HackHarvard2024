@@ -64,7 +64,7 @@ export default function UserAuthForm({ className, ...props }: React.HTMLAttribut
       router.push('/dashboard');
       return toast({
         title: "Successfully Signed Up",
-        description: "Welcome to Query On Reality!",
+        description: "Welcome to GeneEase!",
       });
     }
 
@@ -86,7 +86,7 @@ export default function UserAuthForm({ className, ...props }: React.HTMLAttribut
     router.push('/dashboard');
     return toast({
       title: "Successfully Signed Up",
-      description: "Welcome to Query On Reality!",
+      description: "Welcome to GeneEase!",
     });
   };
 

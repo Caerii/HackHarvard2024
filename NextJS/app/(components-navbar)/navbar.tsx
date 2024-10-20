@@ -12,11 +12,11 @@ export default async function Navbar({ className, ...props }: React.HTMLAttribut
     <nav className={cn("flex items-center space-x-4 lg:space-x-6", className)} {...props}>
       {user ? (
         <Link href="/dashboard" className="text-xl font-medium transition-colors">
-          Query on Reality
+          GeneEase Mindmapper
         </Link>
       ) : (
         <Link href="/" className="text-xl font-medium transition-colors">
-          Query on Reality
+          GeneEase Mindmapper
         </Link>
       )}
     </nav>

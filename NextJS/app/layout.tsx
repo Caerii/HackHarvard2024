@@ -5,7 +5,7 @@ import "./globals.css";
 import { Providers } from "./providers";
 
 export const metadata = {
-  title: "Query On Reality",
+  title: "GeneEase Explorer",
   description: "Upload your data and make querying reality easier",
 };
 

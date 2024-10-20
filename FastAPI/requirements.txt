@@ -7,3 +7,4 @@ exa_py
 rich
 python-multipart
 SQLAlchemy
+uvicorn

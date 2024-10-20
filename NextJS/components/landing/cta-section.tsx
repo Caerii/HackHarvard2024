@@ -175,14 +175,14 @@ export default function CallToActionSection() {
             <div className="absolute z-10 bg-white p-16 rounded-xl shadow-3">
               <div className="mx-auto size-40 rounded-[2rem] border bg-white/10 p-3 shadow-2xl backdrop-blur-md dark:bg-black/10 lg:size-40">
                 {/* <Search className="mx-auto size-16 text-black dark:text-white lg:size-24" /> */}
-                <Image src="/logo.png" alt="Query on Reality" width={200} height={200} />
+                <Image src="/logo.png" alt="GeneEase Mindmapper" width={200} height={200} />
               </div>
               <div className="z-10 mt-4 flex flex-col items-center text-center text-primary max-w-[500px]">
                 <h1 className="text-3xl font-bold lg:text-4xl">
                   Stop wasting time combing through data.
                 </h1>
                 <h1 className="text-3xl font-bold lg:text-4xl">
-                  Query on Reality.
+                  GeneEase Mindmapper.
                 </h1>
                 <Link
                   href="/login"

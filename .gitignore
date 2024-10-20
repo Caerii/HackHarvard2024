@@ -1,0 +1,59 @@
+.env*
+.pyc
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Ignore node_modules and package-lock.json
+node_modules/
+package-lock.json
+
+# Ignore Python byte code and virtual environment files
+__pycache__/
+*.pyc
+venv/
+env/
+
+# Ignore miscellaneous files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Ignore test and coverage reports
+coverage/
+*.test
+*.spec
+
+# Ignore build and dist files
+build/
+dist/
+
+*.gz
+*.webp
+
+# Ignore Next.js build and compiled files
+.next/
+public/_next/
+pages/_app.js.map
+pages/_document.js.map
+static/chunks/
+static/runtime/
+static/styles/
+
+# Ignore Next.js test and coverage files
+coverage/
+jest.config.js
+next.config.js
+
+# Ignore Yarn and npm lock files
+yarn.lock
+package-lock.json
