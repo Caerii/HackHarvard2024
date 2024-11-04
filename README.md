@@ -10,7 +10,9 @@ And make sure to install the dependencies on the frontend.
 
 Using npm install.
 
-Setup environment variables.
+You can run it by doing npm run dev.
+
+Setup environment variables from .env.example.
 
 Devpost: https://devpost.com/software/query-on-reality
 
